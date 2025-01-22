@@ -30,6 +30,9 @@ Contacto
 Si deseas saber más sobre mí o tienes algún proyecto interesante en mente, no dudes en contactarme:
 
 Email: josefinagaleradiaz@gmail.com
+
 LinkedIn: https://www.linkedin.com/in/josefinagalera/
+
 GitHub: https://galerajoli.github.io/mi-portfolio/
+
 ¡Gracias por visitar mi portafolio! Estoy siempre abierta a nuevas oportunidades y colaboraciones.
