@@ -1,8 +1,8 @@
-Portafolio Personal
+
 ¡Bienvenido/a a mi portafolio personal! Aca te cuento un poco más sobre mí, mis gustos, influencias y mi trayectoria académica.
 
-Sobre Mí
-Soy Josefina, una apasionada del desarrollo web, diseño y colores. Me encanta crear proyectos que no solo funcionan, sino que también son agradables visualmente. Mi objetivo es combinar creatividad y tecnología para ofrecer soluciones elegantes y eficientes.
+
+Soy Josefina, una apasionada del desarrollo web, diseño y colores. Me encanta crear proyectos que no solo funcionan, sino que también sean agradables visualmente. Mi objetivo es combinar creatividad y tecnología para ofrecer soluciones elegantes y eficientes.
 
 Mis Gustos
 Algunas cosas que disfruto dentro y fuera del mundo de la tecnología:
@@ -11,6 +11,7 @@ Desarrollo Web: Disfruto trabajar con HTML, CSS, JavaScript y aprender nuevas te
 Diseño UX/UI: Me interesa la intersección entre funcionalidad y diseño.
 Música y Arte: Me inspiro mucho en el arte contemporáneo y en la música para dar forma a mis proyectos.
 Videojuegos: Los videojuegos me enseñan a pensar de manera crítica y a trabajar en equipo.
+
 Influencias
 A lo largo de mi formación y desarrollo profesional, me he inspirado en varios diseñadores y desarrolladores, y ademas de: MUSICA: Me inspiro en géneros como el indie y el post-punk, encontrando una conexión especial con bandas como DIIV y Freak Slug. Además, la energía poética de Patti Smith ha sido una influencia constante en mi perspectiva musical. MODA:La moda es una forma de expresión personal que me permite comunicar quién soy sin palabras. Me inspiro en diseñadores como Miuccia Prada (Miu Miu) y Phoebe Philo (Celine), cuyas obras desafían las normas y celebran la individualidad. DISEÑO: El diseño es la intersección de la creatividad y la funcionalidad. Mis influencias incluyen a muchas personas, como popr ejemplo la diversion grafica de Benedik Tluf y entre otros, al enfoque suave y colorido de Agathe Singer en sus enieobras.
 
