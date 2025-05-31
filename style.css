@@ -1,197 +1,106 @@
-@font-face {
-    font-family: 'Satoshi-Bold';
-    src: url('../fonts/Satoshi-Bold.woff2') format('woff2'),
-        url('../fonts/Satoshi-Bold.woff') format('woff'),
-        url('fonts/Satoshi_Complete/Satoshi_Complete/Fonts/TTF/Satoshi-Variable.ttf') format('truetype');
-    font-weight: 700;
-    font-display: swap;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Satoshi-Italic';
-    src: url('../fonts/Satoshi-Italic.woff2') format('woff2'),
-        url('../fonts/Satoshi-Italic.woff') format('woff'),
-        url('fonts/Satoshi_Complete/Satoshi_Complete/Fonts/TTF/Satoshi-VariableItalic.ttf') format('truetype');
-    font-weight: 400;
-    font-display: swap;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Satoshi-Black';
-    src: url('../fonts/Satoshi-Black.woff2') format('woff2'),
-        url('../fonts/Satoshi-Black.woff') format('woff'),
-        url('fonts/Satoshi_Complete/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-display: swap;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Satoshi-Regular';
-    src: url('../fonts/Satoshi-Regular.woff2') format('woff2'),
-        url('../fonts/Satoshi-Regular.woff') format('woff'),
-        url('fonts/Satoshi_Complete/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-display: swap;
-    font-style: normal;
-}
-
+/* General Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Satoshi-Regular';
-    background-color: #fff;
-    color: #000;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
 }
 
+/* Header */
 header {
-    background-color: #000;
-    color: #fff;
-    padding: 15px 10px;
-    text-align: center;
-}
-
-header h1 {
-    font-size: 24px;
-    font-weight: bold;
-}
-
-.logo img {
-    width: 90px;
+  background-color: #000;
+  color: #fff;
+  padding: 15px 10px;
+  text-align: center;
 }
 
 nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-top: 10px;
-    text-decoration: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
 }
 
-nav a:hover {
-    color: #D26687;
-}
-
+/* Gallery Section */
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 15px;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
 .gallery img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 20px;
+/* Hide additional images on mobile */
+@media (max-width: 768px) {
+  .gallery img:not(:first-child) {
+    display: none;
+  }
 }
 
-#about, #accolades {
-    flex: 1 1 100%;
-    margin: 10px 0;
-    text-align: center;
+/* Influencias Section */
+.influencias {
+  text-align: center;
+  margin: 20px 0;
 }
 
-section h2 {
-    font-size: 22px;
-    margin-bottom: 10px;
+.influencias h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
 }
 
-section p, section ul {
-    margin-bottom: 15px;
-    font-size: 14px;
-    padding-left: 0;
-    list-style-type: none;
-}
-
-.juntos {
-    background-image: url('gifs/colors.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: auto;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.juntos h2 {
-    font-size: 30px;
-    font-family: 'Satoshi-Bold';
-    text-align: center;
-    color: black;
-}
-
-.juntos button {
-    font-family: 'Satoshi-Bold';
-    background-color: black;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.juntos button:hover {
-    background-color: #D26687;
-}
-
-.card-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    padding: 20px;
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
 }
 
 .card {
-    padding: 20px;
-    width: 100%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-size: cover;
-    background-position: center;
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  width: 150px;
+  text-align: center;
 }
 
-.card-content {
-    position: relative;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
+.card img {
+  width: 100%;
+  border-radius: 5px;
 }
 
-.card-content h2 {
-    font-family: 'Satoshi-Bold';
-    font-size: 18px;
+/* Grid Section */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 20px;
 }
 
-footer {
-    margin-top: 20px;
-    padding: 10px;
-    text-align: center;
-    background-color: #000;
-    color: white;
+.grid-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
