@@ -33,6 +33,6 @@ Email: josefinagaleradiaz@gmail.com
 
 LinkedIn: https://www.linkedin.com/in/josefinagalera/
 
-GitHub: https://galerajoli.github.io/mi-portfolio/
+GitHub: https://galerajoli.github.io/miPortfolio/
 
 ¡Gracias por visitar mi portafolio! Estoy siempre abierta a nuevas oportunidades y colaboraciones.
